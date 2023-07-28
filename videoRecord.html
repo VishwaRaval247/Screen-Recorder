@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Screen Recorder</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bg-gray">
+    <nav class="navbar navbar-expand-sm bg-dark-css navbar-dark justify-content-center">
+        <div class="h2 text-center text-light">SCREEN RECORDER</div>
+    </nav>
+
+    <main class="overflow-hidden">
+        <div class="container mx-auto my-4 py-8 px-4">
+
+            <h2 class="h5 text-secondary font-light my-4">
+                VIDEO RECORDER
+            </h2>
+
+            <video src="" autplay class="video-feedback bg-black container mb-4"></video>
+
+            <div class="button-container mb-4">
+                <button
+                    class="start-recording mx-3 flex-1 all-button p-4 h5 font-bold text-white ">
+                    RECORD SCREEN
+                </button>
+                <button
+                    class="stop-recording mx-3 flex-1 all-button p-4 h5 font-bold text-white "
+                    disabled>
+                    STOP RECORDING
+                </button>
+                <div class="demo"></div>
+            </div>
+
+            <div class="recorded-video-wrap hidden">
+                <h2 class="h5 text-secondary font-light my-4">
+                    RECORDED VIDEO
+                </h2>
+
+                <video src="" autplay class="recorded-video bg-black container h-auto mb-8"></video>
+                <div class="button-container mb-8">
+                    <a class="download-video mx-3 text-center flex-1 my-gradient p-4 h5 font-bold text-white hover:opacity-90 disabled:opacity-50 "
+                        disabled>
+                        DOWNLOAD
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
