@@ -1,0 +1,157 @@
+.bg-gray {
+    background-color: rgba(31, 41, 55, 1);
+}
+
+
+.bg-dark-css {
+    background-color: rgba(17, 24, 39, 1);
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.my-gradient {
+    background-image:
+        linear-gradient(to bottom right, #6449a3, rgba(139, 92, 246, 0)),
+        linear-gradient(to bottom right, rgba(139, 92, 246, 0), #f854a6);
+    border: none;
+}
+
+.all-button{
+    background-image:
+        linear-gradient(to bottom right, #6449a3, rgba(139, 92, 246, 0)),
+        linear-gradient(to bottom right, rgba(139, 92, 246, 0), #f854a6);
+    border: none;
+}
+
+.all-button:hover {
+    opacity: 0.9;
+}
+
+.all-button:disabled {
+    opacity: 0.5;
+}
+main{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
+#mic,#screen-share,#screenshot{
+    /* height: 200px;
+    width: 200px;
+    padding: 20px; */
+    /* border-radius: 50%; */
+    background-color:rgba(17, 24, 39, 1);
+    border-style: none;
+}
+
+
+
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    background-color:rgb(52, 61, 74);
+
+    object-fit: contain;
+    padding: 20px;
+}
+
+
+.video-feedback{
+    height: 60%;
+    width: 60%;
+}
+
+
+
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.start-recording {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-duration: 300ms;
+    flex: 1 1 0%;
+    height: 70px;
+}
+
+.stop-recording {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-duration: 300ms;
+    flex: 1 1 0%;
+    height: 70px;
+}
+
+.download-video {
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+    transition-duration: 300ms;
+    flex: 1 1 0%;
+    height: 70px;
+    text-decoration: none;
+}
+
+.hover\:opacity-90:hover {
+    opacity: 0.9;
+}
+
+.disabled\:opacity-50:disabled {
+    opacity: 0.5;
+}
+
+.hidden {
+    display: none;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+
+
+
+nav{
+    min-width: 100%;
+
+}
+
+.ss-btn {
+    font-size: 20px;
+    /* padding: 10px; */
+    border: none;
+    border-radius: 4px;
+    height: 80px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#screenshot-canvas {
+    display: none;
+    width: 70%;
+}
+
+#show {
+    background-color: black;
+    height: 60vh;
+    width: 100vh;
+}
